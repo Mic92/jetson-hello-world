@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1736143030,
+        "narHash": "sha256-+hu54pAoLDEZT9pjHlqL9DNzWz0NbUn8NEAHP7PQPzU=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "b905f6fc23a9051a6e1b741e1438dbfc0634c6de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "jetpack-nixos": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1738003492,
+        "narHash": "sha256-lgDviHeJZZbXytbo9blFSSj2NiN/B3KTqnWfTGUfcRM=",
+        "ref": "refs/heads/main",
+        "rev": "bb026de7ca83a9d3a8595fc8613e8e140ff09cf5",
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/TUM-DSE/jetpack-nixos.git"
+      },
+      "original": {
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/TUM-DSE/jetpack-nixos.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1737364706,
+        "narHash": "sha256-ghjOqNvweWGt9sUnfjOSlqr22XmM+hfV2Lx2BNkOR+E=",
+        "ref": "nixos-24.11-backports",
+        "rev": "643e96458434d6f0ac4dea13e98b8431912086ff",
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/TUM-DSE/nixpkgs.git"
+      },
+      "original": {
+        "ref": "nixos-24.11-backports",
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/TUM-DSE/nixpkgs.git"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1735774519,
+        "narHash": "sha256-CewEm1o2eVAnoqb6Ml+Qi9Gg/EfNAxbRx1lANGVyoLI=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/e9b51731911566bbf7e4895475a87fe06961de0b.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/e9b51731911566bbf7e4895475a87fe06961de0b.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "jetpack-nixos": "jetpack-nixos",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
